@@ -22,6 +22,10 @@ if answer.lower().strip() == "yes":
                 elif answer == "no":
                     answer = input("you decided to go on the opposite path, but suddenly you see a bear, do you want do fight or run" )
                     
+                    if answer == "fight":
+                        print("you killed the bear, but got a heart attack (bad ending 4)")
+                     elif answer == "run":
+                        print("you got home (good ending 2)")
 
     elif answer == "right":
         print("you fall off a cliff and die (bad ending 3) ")
