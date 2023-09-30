@@ -24,7 +24,7 @@ if answer.lower().strip() == "yes":
                     
                     if answer == "fight":
                         print("you killed the bear, but got a heart attack (bad ending 4)")
-                     elif answer == "run":
+                    elif answer == "run":
                         print("you got home (good ending 2)")
 
     elif answer == "right":
